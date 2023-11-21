@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado: Marketing</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="marketing.css">
+
+    <center> 
+    <h1>- Parabéns -</h1>
+    <h2>  Conforme suas respostas, seu resultado foi <h2 id="resultado"></h2></h2> 
+    <img src="marketing.jpg" height="650px" width="1000px"> 
+    <h1>Marketing</h1>
+    <h2>
+        <p>O curso de Marketing destaca-se por sua abordagem completa em estratégias de marketing e comunicação,</p>
+        <p>desenvolvendo habilidades analíticas para compreender o mercado.</p> 
+        <p>Com foco em branding, contribui para a construção de identidades de marca sólidas.</p>
+        <p>Para aprimorar, seria benéfico incluir módulos sobre marketing digital e redes sociais,</p>
+        <p>dar maior ênfase em métricas e análise de retorno sobre investimento, e integrar práticas de marketing ético e responsável.</p>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos fortes:</h1>
+            <h2><p>Abordagem completa em estratégias de marketing e comunicação.</p>
+            <p>Desenvolvimento de habilidades analíticas para entender o mercado.</p>
+            <p>Foco em branding e construção de identidade de marca.</p></h2>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos de melhoria:</h1>
+            <h2><p>Inclusão de módulos sobre marketing digital e redes sociais.</p>
+                <p>Maior ênfase em métricas e análise de retorno sobre investimento.</p>
+                <p>Integração de práticas de marketing ético e responsável.</p></h2>
+
+                <script>
+                    document.getElementById("resultado").innerHTML = localStorage.getItem('porcTM');
+                </script>
+</body>
+</html>

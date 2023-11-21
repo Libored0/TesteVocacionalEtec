@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado: Serviços Jurídico</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="servico.css">
+
+    <center> 
+    <h1>- Parabéns -</h1>
+    <h2>  Conforme suas respostas, seu resultado foi <h2 id="resultado"></h2></h2> 
+    <img src="servico.jpg" height="650px" width="1000px"> 
+    <h1>- Serviços Jurídicos -</h1>
+    <h2>
+        <p>O curso de Serviços Jurídicos foca na formação de profissionais especializados em direito, </p>
+            <p>com conhecimento aprofundado em normas e regulamentações legais. </p>
+         <p>melhorar, poderia incluir práticas mais dinâmicas e simulações de casos, manter-se atualizado </p>
+         <p> constantemente em novas legislações e jurisprudências, e dar uma maior ênfase em habilidades de comunicação e negociação.</p>
+        </p>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos fortes:</h1>
+            <h2><p>Foco na formação de profissionais especializados em direito.</p>
+            <p>Conhecimento aprofundado em normas e regulamentações legais.</p>
+            <p>Capacidade de fornecer consultoria jurídica especializada.</p></h2>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos de melhoria:</h1>
+            <h2><p>Inclusão de práticas mais dinâmicas e simulações de casos.</p>
+                <p>Atualização constante em novas legislações e jurisprudências.</p>
+                <p>Maior ênfase em habilidades de comunicação e negociação.</p></h2>
+
+                <script>
+                    document.getElementById("resultado").innerHTML = localStorage.getItem('porcSJ');
+                </script>
+</body>
+</html>

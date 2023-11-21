@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado: Administração</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="adm.css">
+
+    <center> 
+    <h1>- Parabéns -</h1>
+    <h2>  Conforme suas respostas, seu resultado foi <h2 id="resultado"></h2></h2> 
+    <img src="adm.jfif" height="650px" width="1000px"> 
+    <h1>Administração</h1>
+    <h2>
+        <p>O curso de Administração destaca-se por desenvolver habilidades de liderança e gestão de equipes, </p>
+        <p>preparando profissionais para enfrentar desafios organizacionais.</p> 
+        <p>Sua abordagem ampla em estratégias empresariais proporciona versatilidade,</p>
+        <p>permitindo atuação em diversas áreas.</p>
+        <p>No entanto, para aprimorar, seria benéfico incluir um aprofundamento em tecnologias emergentes e</p>
+        <p>abordar questões contemporâneas de sustentabilidade.</p>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos fortes:</h1>
+            <h2><p>Desenvolvimento de habilidades de liderança e gestão de equipes.</p>
+            <p>Ampla abordagem em estratégias organizacionais.</p>
+            <p>Versatilidade, preparando profissionais para atuar em diversas áreas.</p></h2>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos de melhoria:</h1>
+            <h2><p>Aprofundamento em tecnologias emergentes na gestão empresarial.</p>
+                <p>Maior ênfase em questões contemporâneas de sustentabilidade.</p>
+                <p>Incentivo à prática constante de tomada de decisões estratégicas.</p></h2>
+
+                <script>
+                    document.getElementById("resultado").innerHTML = localStorage.getItem('porcADM');
+                </script>
+</body>
+</html>
