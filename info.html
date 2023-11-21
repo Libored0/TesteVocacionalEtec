@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado: Informática</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="info.css">
+
+    <center> 
+    <h1>- Parabéns -</h1>
+    <h2>  Conforme suas respostas, seu resultado foi <h2 id="resultado"></h2></h2> 
+    <img src="info.jpg" height="650px" width="1000px"> 
+    <h1>Informática</h1>
+    <h2>
+        <p>O curso de Informática para Internet proporciona uma formação abrangente em desenvolvimento web e programação,</p>
+        <p>mantendo os profissionais atualizados nas últimas tecnologias. Foca na criação de soluções digitais inovadoras.</p> 
+        <p>No entanto, poderia aprimorar-se com uma maior ênfase em design centrado no usuário,</p>
+        <p>a integração de práticas ágeis de desenvolvimento de software</p>
+        <p>e ampliação de oportunidades de estágio e projetos práticos.</p>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos fortes:</h1>
+            <h2><p>Formação abrangente em desenvolvimento web e programação.</p>
+            <p>Atualização constante em tecnologias e linguagens de programação.</p>
+            <p>Foco na criação de soluções digitais inovadoras.</p></h2>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos de melhoria:</h1>
+            <h2><p>Maior ênfase em design centrado no usuário.</p>
+                <p>Integração de práticas ágeis de desenvolvimento de software.</p>
+                <p>Ampliação de oportunidades de estágio e projetos práticos.</p></h2>
+
+                <script>
+                    document.getElementById("resultado").innerHTML = localStorage.getItem('porcIF');
+                </script>
+</body>
+</html>

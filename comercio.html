@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado: Comércio Externo</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="comercio.css">
+
+    <center> 
+    <h1>- Parabéns -</h1>
+    <h2>~ Conforme suas respostas, seu resultado foi <h2 id="resultado"></h2>~</h2> 
+    <img src="comercio.png" height="650px" width="1000px"> 
+    <h1>- Comercio Externo -</h1>
+    <h2>
+        <p>O curso de Comércio Exterior destaca-se por oferecer uma visão aprofundada nas relações internacionais e no comércio global.</p> 
+        <p>Com ênfase em logística internacional e conhecimento em normas aduaneiras, prepara profissionais para desafios globais. </p>
+        <p>Para melhorar, poderia integrar-se mais às tecnologias emergentes, enfatizar estratégias para superar barreiras culturais </p>
+            <p>incluir estudos de casos específicos para uma aprendizagem prática.</p>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos fortes:</h1>
+            <h2><p>Enfoque nas relações internacionais e comércio global            </p>
+            <p>Desenvolvimento de habilidades em logística internacional.</p>
+            <p>Conhecimento aprofundado em normas e regulamentações aduaneiras.</p></h2>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos de melhoria:</h1>
+            <h2><p>Maior integração com tecnologias emergentes no comércio.</p>
+                <p>Ênfase em estratégias para superar barreiras culturais.</p>
+                <p>Inclusão de estudos de casos específicos de sucesso.</p></h2>
+
+                <script>
+                    document.getElementById("resultado").innerHTML = localStorage.getItem('porcCE');
+                </script>
+</body>
+</html>

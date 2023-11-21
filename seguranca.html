@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado: Segurança do Trabalho</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="serguranca.css">
+
+    <center> 
+    <h1>- Parabéns -</h1>
+    <h2>  Conforme suas respostas, seu resultado foi <h2 id="resultado"></h2></h2> 
+    <img src="seguranca.jpg" height="650px" width="1000px"> 
+    <h1>- Segurança do trabalho -</h1>
+    <h2>
+        <p>O curso de Segurança do Trabalho destaca-se por sua ênfase na prevenção de acidentes e promoção da saúde no trabalho, </p>
+         <p>   com conhecimento aprofundado em normas regulamentadoras. Poderia melhorar integrando mais tecnologias</p>
+            <p> para monitoramento de segurança, </p>
+            <p>incentivando pesquisa e implementação de inovações, e enfatizando a conscientização </p>
+          <p>  e treinamento constante.</p>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos fortes:</h1>
+            <h2><p>Enfoque na prevenção de acidentes e promoção da saúde no trabalho.            </p>
+            <p>Conhecimento aprofundado em normas regulamentadoras.</p>
+            <p>Contribuição para ambientes de trabalho mais seguros.</p></h2>
+        <h5><p>_____________________________________________________________________________________________________________________</p></h5>
+            <h1>Pontos de melhoria:</h1>
+            <h2><p>Maior integração de tecnologias para monitoramento de segurança.</p>
+                <p>Incentivo à pesquisa e implementação de inovações em segurança.</p>
+                <p>Ênfase na conscientização e treinamento constante.</p></h2>
+
+                <script>
+                    document.getElementById("resultado").innerHTML = localStorage.getItem('porcST');
+                </script>
+</body>
+</html>
